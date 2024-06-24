@@ -6,15 +6,6 @@ Telegram: https://t.me/HiaiFeng <br>
 # 简介：
 本项目用于在 Doprax.com 免费服务上部署 V2ray ，采用的方案为 Nginx + WebSocket + VMess/VLess + TLS。速度与 Replit 相比较慢，但是官方宣传不限流量，服务启动后永不停机。
 
-# 注意事项：
-<p><b><li>请勿滥用，账号封禁风险自负。</li></b></p>
-<p><b><li>部署完成如发现不能上网，请检查域名是否被墙，可使用 Cloudflare CDN 解决。</li></b></p>
-
-# 部署：
-<p>1、登录自己的 GitHub 账号后 Fork 该项目。</p>
-<p>2、注册 <a href="https://www.doprax.com/signup/">Doprax.com</a> 账号登录后 Import 该项目。</p>
-<p>详细使用方案请参考：https://www.hicairo.com/post/55.html</p>
-
 # 使用方法：
 <p>1、服务器端配置</p>
 <p>请使用 <a href="https://www.v2fly.org/awesome/tools.html">第三方工具</a> 生成一个新的 UUID 。在 Doprax.com 登录后依次点击左侧菜单中的 Main ,窗口右侧的 Edit source code ，选择 Dockerfile 文件，编辑 UUID 及伪装地址信息保存后重启服务。</p>
